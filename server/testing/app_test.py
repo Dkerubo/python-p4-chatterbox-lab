@@ -147,3 +147,4 @@ class TestApp:
 
             h = Message.query.filter_by(body="Hello 👋").first()
             assert(not h)
+            
